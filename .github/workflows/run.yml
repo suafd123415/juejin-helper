@@ -33,11 +33,11 @@ jobs:
         run: npm ci
       - name: 开始任务
         env:
-          EMAIL_USER: ${{ secrets.EMAIL_USER }}
-          EMAIL_PASS: ${{ secrets.EMAIL_PASS }}
-          USER_MOBILE: ${{ secrets.USER_MOBILE }}
-          USER_PASSWORD: ${{ secrets.USER_PASSWORD }}
-          USER_EMAIL: ${{ secrets.USER_EMAIL }}
+          EMAIL_USER: "17601615572@163.com"
+          EMAIL_PASS: "GZOZGMOJRRGBMNBO"
+          USER_MOBILE: "17601615572"
+          USER_PASSWORD: "suafd123"
+          USER_EMAIL: "17601615572@163.com"
         run: |
           node index.js
       - name: 更新数据
